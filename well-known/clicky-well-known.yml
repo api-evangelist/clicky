@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://clickypass.com/.well-known/*
+host: https://clickypass.com
+note: >-
+  clickypass.com is a defunct/acquired domain that 301-redirects to
+  https://classpass.com. No .well-known discovery documents are served from the
+  Clicky domain itself (every path returns 301). Recorded for audit; no
+  document was captured, so no WellKnown/SecurityTxt pointer is emitted.
+documents:
+- path: /.well-known/security.txt
+  status: 301
+  file: null
+- path: /.well-known/openid-configuration
+  status: 301
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  file: null
+- path: /.well-known/api-catalog
+  status: 301
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 301
+  file: null
